@@ -28,7 +28,34 @@ exceeds the range
 
 # Connections (Pinout)
 
-It will be added soon.
+**SPI PINS:**
+- PA2: SSI0Clk
+- PA3: SSI0Fss
+- PA5: SSI0Tx
+
+**I2C PINS:**
+- PB2: I2C0SCL
+- PB3: I2C0SDA
+
+**TIMER PINS:**
+- PB6: T0CCP0
+
+**ADC PINS:**
+- PE3: AIN0
+
+**Heating Pad Driver**
+- PB0: Applied to gate pin of the MOSFET
+
+
+
+**LEDs and Push Buttons**
+- PF0: Min Set (SW1)
+- PF1: Red Light
+- PF2: Blue Light
+- PF3: Green Light
+- PF4: Max Set (SW2)
+
+
 
 
 
