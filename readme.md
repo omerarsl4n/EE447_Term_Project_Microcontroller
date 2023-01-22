@@ -16,7 +16,10 @@ The system has three output elements. Firstly, on the LCD screen, detected tempe
 temperature range are displayed. Secondly, on-board LEDs are turned on or off according to the detected
 temperature. If the temperature is below the range, red LED must be on and the others must be off.
 If the temperature is in the range, green LED is on. And blue LED must be on, when the temperature
-exceeds the range
+exceeds the range. When a LED is on, its brightness can change proportional to the current
+temperature. That is the LED should lights up less in low temperature and more in high
+temperature.
+
 
 # Hardware
 **Prerequisites:**
